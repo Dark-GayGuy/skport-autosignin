@@ -140,7 +140,7 @@ function postWebhook(results) {
             color: embedColor,
             fields: fields,
             footer: {
-                text: `Time: ${new Date().toLocaleString('en-US', { timeZone: 'UTC' })} (UTC)`,
+                text: `Time: ${new Date().toLocaleString('vi-VN', { timeZone: 'Asia/Ho_Chi_Minh' })} (UTC+7)`,
                 icon_url: "https://assets.skport.com/assets/favicon.ico"
             }
         }]
