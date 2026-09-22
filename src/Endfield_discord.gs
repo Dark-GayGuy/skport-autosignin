@@ -2,8 +2,8 @@
 
 const profiles = [
     {
-        cred: "xxxxxxxxxxxxxxxxxxxxxx",  // Replace with your Endfield cred cookie value ( get from cookie )
-        skGameRole: "xxxxxxxxxxxx",  // Replace with your Endfield skGameRole cookie value ( get from cookie )
+        cred: "UYLH9O3ELkRQp4ijneD9NuuPVpZagXgs",  // Replace with your Endfield cred cookie value ( get from cookie )
+        skGameRole: "3_4771085260_2",  // Replace with your Endfield skGameRole cookie value ( get from cookie )
         platform: "3",
         vName: "1.0.0",
         accountName: "acc_name" // Replace with a name to identify this account( a simple identifier )
@@ -12,8 +12,8 @@ const profiles = [
 ];
 
 const discord_notify = true;
-const myDiscordID = "xxxxxxxxxxxxxxxxxxx";  // Replace with your Discord ID (optional, for pinging)
-const discordWebhook = "https://xxxx.discord.com/api/webhooks/xxxxxxxxxxx";  // Replace with your Discord webhook URL
+const myDiscordID = "1309092124771352706";  // Replace with your Discord ID (optional, for pinging)
+const discordWebhook = "https://discord.com/api/webhooks/1551179797281902653/krueiQKgDpw7iGvcVzR5qwaaxeinYd4UF-cg-ELXxr8BfHdOdAbaaJCKKJH4oMFZzPwk";  // Replace with your Discord webhook URL
 
 /** Config ends. **/
 
@@ -133,8 +133,8 @@ function postWebhook(results) {
     });
 
     const payload = {
-        username: "Endfield Assistant",
-        avatar_url: "https://pbs.twimg.com/profile_images/1984225639407529984/2_3-HRTS_400x400.jpg",
+        username: "Perlica",
+        avatar_url: "https://i.imgur.com/TguAOiA.png",
         embeds: [{
             title: "📡 Endfield Daily Check-in Report",
             color: embedColor,
